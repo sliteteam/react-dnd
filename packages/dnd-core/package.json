@@ -1,5 +1,5 @@
 {
-  "name": "dnd-core",
+  "name": "@slite/react-dnd-core",
   "version": "16.0.1",
   "description": "Drag and drop sans the GUI",
   "license": "MIT",
@@ -29,8 +29,8 @@
     "url": "https://github.com/react-dnd/react-dnd.git"
   },
   "dependencies": {
-    "@react-dnd/asap": "workspace:^",
-    "@react-dnd/invariant": "workspace:^",
+    "@slite/react-dnd-asap": "workspace:^",
+    "@slite/react-dnd-invariant": "workspace:^",
     "redux": "^4.2.0"
   },
   "devDependencies": {

@@ -6,7 +6,7 @@ import type {
 	HoverOptions,
 	Identifier,
 	Unsubscribe,
-} from 'dnd-core'
+} from '@slite/react-dnd-core'
 
 import type { ITestBackend, TestBackendContext } from './types.js'
 

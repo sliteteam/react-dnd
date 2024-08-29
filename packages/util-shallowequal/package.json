@@ -1,5 +1,5 @@
 {
-  "name": "@react-dnd/shallowequal",
+  "name": "@slite/react-dnd-shallowequal",
   "version": "4.0.2",
   "description": "Like lodash isEqualWith but for shallow equal.",
   "keywords": [

@@ -1,4 +1,4 @@
-import { createDragDropManager } from 'dnd-core'
+import { createDragDropManager } from '@slite/react-dnd-core'
 
 import { TestBackend } from 'react-dnd-test-backend'
 

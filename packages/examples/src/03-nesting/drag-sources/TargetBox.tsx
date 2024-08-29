@@ -1,7 +1,7 @@
 import type { CSSProperties, FC } from 'react'
 import { memo, useCallback, useState } from 'react'
-import type { DropTargetMonitor } from 'react-dnd'
-import { useDrop } from 'react-dnd'
+import type { DropTargetMonitor } from '@slite/react-dnd'
+import { useDrop } from '@slite/react-dnd'
 
 import { Colors } from './Colors.js'
 import type { DragItem } from './interfaces.js'

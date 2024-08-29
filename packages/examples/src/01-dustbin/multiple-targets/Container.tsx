@@ -1,7 +1,7 @@
 import update from 'immutability-helper'
 import type { FC } from 'react'
 import { memo, useCallback, useState } from 'react'
-import { NativeTypes } from 'react-dnd-html5-backend'
+import { NativeTypes } from '@slite/react-dnd-html5-backend'
 
 import { Box } from './Box.js'
 import { Dustbin } from './Dustbin.js'

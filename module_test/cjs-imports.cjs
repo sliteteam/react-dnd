@@ -4,7 +4,7 @@ const dnd = require('react-dnd')
 const htmlBackend = require('react-dnd-html5-backend')
 const testBackend = require('react-dnd-test-backend')
 const testUtils = require('react-dnd-test-utils')
-const touchBackend = require('react-dnd-touch-backend')
+const touchBackend = require('@slite/react-dnd-touch-backend')
 const { check } = require('./common.js')
 
 check(core, 'core')

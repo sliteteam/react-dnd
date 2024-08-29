@@ -1,4 +1,4 @@
-import { invariant } from '@react-dnd/invariant'
+import { invariant } from '@slite/react-dnd-invariant'
 import type {
 	DragDropManager,
 	DragDropMonitor,
@@ -6,7 +6,7 @@ import type {
 	Listener,
 	Unsubscribe,
 	XYCoord,
-} from 'dnd-core'
+} from '@slite/react-dnd-core'
 
 import type { DropTargetMonitor } from '../types/index.js'
 
@@ -37,7 +37,7 @@ export class DropTargetMonitorImpl implements DropTargetMonitor {
 
 	public canDrop(): boolean {
 		// Cut out early if the target id has not been set. This should prevent errors
-		// where the user has an older version of dnd-core like in
+		// where the user has an older version of @slite/react-dnd-core like in
 		// https://github.com/react-dnd/react-dnd/issues/1310
 		if (!this.targetId) {
 			return false

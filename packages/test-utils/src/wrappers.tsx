@@ -1,8 +1,8 @@
-import type { BackendFactory } from 'dnd-core'
+import type { BackendFactory } from '@slite/react-dnd-core'
 import type { ComponentType, Ref } from 'react'
 import { Component, forwardRef } from 'react'
-import { DndProvider } from 'react-dnd'
-import { HTML5Backend } from 'react-dnd-html5-backend'
+import { DndProvider } from '@slite/react-dnd'
+import { HTML5Backend } from '@slite/react-dnd-html5-backend'
 import type { ITestBackend, TestBackendOptions } from 'react-dnd-test-backend'
 import { TestBackend } from 'react-dnd-test-backend'
 

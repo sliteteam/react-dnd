@@ -1,7 +1,7 @@
-import type { Identifier, XYCoord } from 'dnd-core'
+import type { Identifier, XYCoord } from '@slite/react-dnd-core'
 import type { FC } from 'react'
 import { useRef } from 'react'
-import { useDrag, useDrop } from 'react-dnd'
+import { useDrag, useDrop } from '@slite/react-dnd'
 
 import { ItemTypes } from './ItemTypes.js'
 

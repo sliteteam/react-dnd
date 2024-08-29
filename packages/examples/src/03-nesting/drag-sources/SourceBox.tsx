@@ -1,7 +1,7 @@
 import type { CSSProperties, FC, ReactNode } from 'react'
 import { memo, useCallback, useMemo, useState } from 'react'
-import type { DragSourceMonitor } from 'react-dnd'
-import { useDrag } from 'react-dnd'
+import type { DragSourceMonitor } from '@slite/react-dnd'
+import { useDrag } from '@slite/react-dnd'
 
 import { Colors } from './Colors.js'
 

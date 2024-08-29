@@ -1,4 +1,4 @@
-import type { BackendFactory, DragDropManager } from 'dnd-core'
+import type { BackendFactory, DragDropManager } from '@slite/react-dnd-core'
 
 import { TestBackendImpl } from './TestBackend.js'
 import type {

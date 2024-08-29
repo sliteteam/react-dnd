@@ -1,4 +1,4 @@
-import type { Backend } from 'dnd-core'
+import type { Backend } from '@slite/react-dnd-core'
 import { TargetConnector } from '../TargetConnector.js'
 
 describe('TargetConnector', () => {

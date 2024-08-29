@@ -1,4 +1,4 @@
-import type { Backend } from 'dnd-core'
+import type { Backend } from '@slite/react-dnd-core'
 
 
 import { SourceConnector } from '../SourceConnector.js'

@@ -1,5 +1,5 @@
 {
-  "name": "@react-dnd/asap",
+  "name": "@slite/react-dnd-asap",
   "version": "5.0.2",
   "description": "High-priority task queue for Node.js and browsers",
   "keywords": [

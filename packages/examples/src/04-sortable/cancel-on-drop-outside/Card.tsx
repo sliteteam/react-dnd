@@ -1,6 +1,6 @@
 import type { CSSProperties, FC } from 'react'
 import { memo } from 'react'
-import { useDrag, useDrop } from 'react-dnd'
+import { useDrag, useDrop } from '@slite/react-dnd'
 
 import { ItemTypes } from './ItemTypes.js'
 

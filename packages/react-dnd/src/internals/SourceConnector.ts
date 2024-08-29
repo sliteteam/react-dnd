@@ -1,5 +1,5 @@
-import { shallowEqual } from '@react-dnd/shallowequal'
-import type { Backend, Identifier, Unsubscribe } from 'dnd-core'
+import { shallowEqual } from '@slite/react-dnd-shallowequal'
+import type { Backend, Identifier, Unsubscribe } from '@slite/react-dnd-core'
 import type { ReactElement, Ref, RefObject } from 'react'
 
 import type { DragPreviewOptions, DragSourceOptions } from '../types/index.js'

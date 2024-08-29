@@ -1,4 +1,4 @@
-import type { DragDropManager } from 'dnd-core'
+import type { DragDropManager } from '@slite/react-dnd-core'
 import { createContext } from 'react'
 
 /**

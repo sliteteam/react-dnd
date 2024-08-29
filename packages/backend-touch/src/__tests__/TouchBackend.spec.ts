@@ -1,4 +1,4 @@
-import type { DragDropManager } from 'dnd-core'
+import type { DragDropManager } from '@slite/react-dnd-core'
 
 import { TouchBackend } from '../index.js'
 import type { TouchBackendImpl } from '../TouchBackendImpl.js'

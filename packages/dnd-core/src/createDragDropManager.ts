@@ -33,8 +33,8 @@ function makeStoreInstance(debugMode: boolean): Store<State> {
 		debugMode &&
 			reduxDevTools &&
 			reduxDevTools({
-				name: 'dnd-core',
-				instanceId: 'dnd-core',
+				name: '@slite/react-dnd-core',
+				instanceId: '@slite/react-dnd-core',
 			}),
 	)
 }

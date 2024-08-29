@@ -1,4 +1,4 @@
-import { invariant } from '@react-dnd/invariant'
+import { invariant } from '@slite/react-dnd-invariant'
 
 import type {
 	Action,

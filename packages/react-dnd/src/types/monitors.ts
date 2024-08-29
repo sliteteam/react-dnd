@@ -1,4 +1,4 @@
-import type { Identifier, Unsubscribe } from 'dnd-core'
+import type { Identifier, Unsubscribe } from '@slite/react-dnd-core'
 
 export interface XYCoord {
 	x: number

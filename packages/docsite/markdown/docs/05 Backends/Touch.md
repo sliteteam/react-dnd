@@ -20,7 +20,7 @@ npm install react-dnd-touch-backend
 ### Usage
 
 ```jsx
-import { TouchBackend } from 'react-dnd-touch-backend'
+import { TouchBackend } from '@slite/react-dnd-touch-backend'
 import { DndProvider } from 'react-dnd'
 
 class YourApp {

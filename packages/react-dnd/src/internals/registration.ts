@@ -6,7 +6,7 @@ import type {
 	SourceType,
 	TargetType,
 	Unsubscribe,
-} from 'dnd-core'
+} from '@slite/react-dnd-core'
 
 export function registerTarget(
 	type: TargetType,

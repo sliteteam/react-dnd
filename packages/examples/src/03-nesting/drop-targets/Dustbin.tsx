@@ -1,6 +1,6 @@
 import type { CSSProperties, FC, ReactNode } from 'react'
 import { useState } from 'react'
-import { useDrop } from 'react-dnd'
+import { useDrop } from '@slite/react-dnd'
 
 import { ItemTypes } from './ItemTypes.js'
 
